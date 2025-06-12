@@ -1,4 +1,5 @@
-acceleration = 0.1
-friction = 0.95
-max_speed = 5
-angle_velocity = 3
+# 차량 물리 상수들
+acceleration = 0.1       # 가속력 (높을수록 빠르게 가속)
+friction = 0.99         # 마찰력 (낮을수록 미끄러짐이 많음, 0.95-0.99 권장)
+max_speed = 4.0          # 최대 속도 (실제 픽셀/프레임 속도)
+angle_velocity = 0.6     # 조향 속도 (높을수록 빠르게 회전)
